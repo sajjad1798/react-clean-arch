@@ -1,13 +1,8 @@
-import { Button } from "@/components/ui/button";
+import OpenRoute from "./presentation/layout/OpenRoute";
 
 function App() {
-  return (
-    <>
-      <div className="container mx-auto py-10">
-        <Button>Label</Button>
-      </div>
-    </>
-  );
+  const AppRender = <OpenRoute />;
+  return <>{AppRender}</>;
 }
 
 export default App;
